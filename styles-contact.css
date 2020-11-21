@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/sky_bg.png)
     center center fixed no-repeat;
     background-size: cover;
 	
@@ -68,24 +68,30 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 70%; /* responsive width */
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    margin: 100px auto 20px auto;
+ 	background: rgba(102, 109, 120, .50); /*this uses opacity of 50% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+    border: 4px solid white;
+    /* changed border to white */
+
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 30px;
+	border: none;
 	text-align: center;
+    filter: invert(1);
 }
 
 h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-size: 2em;
+	/* Chose Eurostile from Adobe fonts*/
+	font-family: eurostile-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
 }
@@ -101,22 +107,28 @@ h2 {
     margin: 0px auto 25px auto;
 }
 
-p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+.links {    
+    /* copied css from .center, modified margins */
+    width: 70%; /* responsive width */
+	padding: 2%;
+    margin: 10px auto;
+ 	background: rgba(102, 109, 120, .50);
+	text-align: center;
+    border: 4px solid white;
+    /* changed border to white */
+
 }
 
 nav{
     font-family: arboria, sans-serif;
     font-size: 1.2em;
-    width: 400px;
-    margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
+    width: 70%; /* responsive width */
+    margin: auto; /* removed bottom margin */
+    border-top-style: solid; /* changed border style from dashed */
+    border-bottom-style: solid;
+    border-color: white;
+    border-width: 2px 0;
     text-align: center;
-    margin-top: 2em;
 }
     
 nav li{
@@ -128,12 +140,11 @@ nav a{
 }
 
 a{
-    color:#444;
+    color:white;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover{
-    color:black;
-    background: pink;
+    color: rgba(83, 99, 112, .80);
 }
