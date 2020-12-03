@@ -69,9 +69,9 @@ html, body {
 
 .center {
     width: 70%; /* responsive width */
-	padding: 2%;
+    padding: 2%;
     margin: 100px auto 20px auto;
- 	background: rgba(102, 109, 120, .50); /*this uses opacity of 50% for the background color*/
+ 	background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(180, 183, 190, 0.8)); /*changed background to gradient */
 	text-align: center;
     border: 4px solid white;
     /* changed border to white */
@@ -86,20 +86,20 @@ html, body {
     filter: invert(1);
 }
 
-h1 {
+p {
 	/* Chose Eurostile from Adobe fonts*/
 	font-family: eurostile-condensed, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0px auto 10px auto;
     color: #fff;
 }
 
 h2 {
 	font-family: arboria, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 300;
+    font-style: italic; /* changed to italics */
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
@@ -112,7 +112,7 @@ h2 {
     width: 70%; /* responsive width */
 	padding: 2%;
     margin: 10px auto;
- 	background: rgba(102, 109, 120, .50);
+ 	background: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(230, 233, 238, 0.8)); /*changed background to gradient */
 	text-align: center;
     border: 4px solid white;
     /* changed border to white */
