@@ -12,6 +12,10 @@ header {
    background-color: rgb(236 142 52) ;
 }
 
+main {
+    margin: 0.5rem;
+}
+
 h1 {
    margin: 0.5rem 0rem;
    font-family: Sutro, serif;  
@@ -51,14 +55,14 @@ ul {
     font-family: poppins, sans-serif;  
     font-weight: 400;  
     font-style: normal;
-    padding: 0.5em 1.2em;
+    padding: 0.5em 1em;
 }
 
 ol {
     font-family: poppins, sans-serif;  
     font-weight: 400;  
     font-style: normal;
-    padding: 0.5em 1.2em;
+    padding: 0.5em 1em;
 }
 
 li {
