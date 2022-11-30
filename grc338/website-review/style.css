@@ -6,7 +6,7 @@ img {
     width: 100%; 
 }
 body {
-    font-family: Eurostile, sans-serif;
+    font-family: eurostile, sans-serif;
     margin: auto;
     background-image: linear-gradient(rgb(252, 252, 252), rgb(212, 214, 219));
     padding-bottom: 1em;
