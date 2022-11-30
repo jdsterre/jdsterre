@@ -1,0 +1,195 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; 
+}
+body {
+    font-family: Eurostile, sans-serif;
+    margin: auto;
+    background-image: linear-gradient(rgb(252, 252, 252), rgb(212, 214, 219));
+    padding-bottom: 1em;
+}
+main {
+    width: 90%;
+    margin: auto;
+}
+header {
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(59, 59, 59);
+    box-shadow: 0px 3px 7px rgb(151, 151, 151);
+    padding-top: 1rem;
+}
+h1 {
+    margin: 0rem auto 0rem 1rem;
+    width: 7rem;
+}
+h2 {
+    margin: 1rem;
+    border-bottom: 2px solid rgba(59, 58, 58, 0.216);
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: left;
+    width: 70%;
+}
+h3 {
+    margin: 0.5rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: rgb(78, 78, 78);
+}
+h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: right;
+}
+p {
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+ul{
+    list-style: none;
+}
+article {
+    display: grid;
+    margin: 1em 3em;
+}
+article p {
+    margin: 0rem auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+figcaption {
+    margin: 0.5rem 1rem 1rem 0rem;
+    max-height: 1rem;
+}
+figcaption a{
+    color: rgb(59, 58, 58);
+    font-weight: 200;
+    font-size: 0.8rem;
+    font-style: normal;
+}
+nav {
+    margin: 0.5rem;
+}
+nav ul li {
+    display: inline;
+    margin: 0.5rem;
+    max-width: 4rem;
+}
+nav li a{
+    text-decoration: none;
+    padding: 0.1rem;
+    color: rgb(200,200,200);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+nav li a:hover{
+    border-bottom: 2px solid rgb(200,200,200);
+}
+iframe {
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+/* Styles for shop section*/
+ul.shop {
+    display: grid;
+    grid-template-rows: repeat(auto, 40rem);
+    gap: 2rem;
+    width: fit-content;
+    margin: auto;
+    margin-left: 1rem;
+}
+ul.shop li {
+    display: grid;
+    grid-column: repeat(auto, 1fr);
+    grid-row: repeat(auto, 1fr);
+    background-color: rgba(255, 255, 255, 0.255);
+    grid-template-rows: 4.5rem 1.5rem auto 2rem 2rem 4rem;
+    border-radius: 2px 2px 20px 2px;
+
+}
+li img {
+    margin: 0.5rem 0;
+}
+li p {
+    font-size: 1rem;
+    margin: 0rem 0.5rem;
+}
+p.downloadyes {
+    border-radius: 3px;
+    margin: 1rem auto;
+    padding: 0.2rem;
+    text-align: center;
+    background-color: rgb(189, 241, 203);
+    color: rgb(13, 113, 70);
+}
+p.downloadno {
+    border-radius: 3px;
+    margin: 1rem auto;
+    padding: 0.2rem 0.3rem;
+    text-align: center;
+    background-color: rgb(240, 194, 194);
+    color: rgb(132, 12, 12);
+}
+/* changes based on a minimum 37rem screen size */
+
+@media screen and (min-width: 40rem) {
+    ul.shop {
+        display: grid;
+        grid-template-columns: repeat(2, 18rem);
+        grid-template-rows: repeat(auto, auto);
+        margin-left: auto
+    }
+    ul.shop {
+        grid-template-columns: repeat(2, 18rem);
+    }
+    article {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        gap: 0em 1em;
+    }
+    article figcaption{
+        grid-row: 2/3;
+    }
+}
+@media screen and (min-width: 62rem) {
+    ul.shop {
+        grid-template-columns: repeat(3, 18rem);
+    }
+    header {
+        display: grid;
+        grid-template-columns: 1fr 5fr 8rem;
+    }
+    h1 {
+        grid-column: 1/2;
+        width: 10rem;
+    }
+    nav {
+        grid-column: 3/4;
+        max-width: 8rem;
+        margin: 0.5rem 2rem auto auto;
+    }
+    nav ul {
+        align-items: center;
+    }
+    nav ul li {
+        display: block;
+        margin: 0.5rem 2rem;
+    }
+    nav ul li a {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 80rem) {
+    ul.shop {
+        grid-template-columns: repeat(4, 18rem);
+        width: 90%;
+        margin: auto;
+    }
+}
