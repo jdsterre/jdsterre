@@ -149,14 +149,6 @@ p.downloadno {
     ul.shop {
         grid-template-columns: repeat(2, 18rem);
     }
-    article {
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: repeat(3, auto);
-        gap: 0em 1em;
-    }
-    article figcaption{
-        grid-row: 2/3;
-    }
 }
 @media screen and (min-width: 62rem) {
     ul.shop {
@@ -185,11 +177,24 @@ p.downloadno {
     nav ul li a {
         font-size: 1.5rem;
     }
+    article {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        gap: 0em 1em;
+    }
+    article figcaption{
+        grid-row: 2/3;
+    }
 }
 @media screen and (min-width: 80rem) {
     ul.shop {
         grid-template-columns: repeat(4, 18rem);
-        width: 90%;
+        width: fit-content;
         margin: auto;
+    }
+    article {
+        grid-template-columns: 40rem 30rem;
+        margin: auto;
+        width: fit-content;
     }
 }
