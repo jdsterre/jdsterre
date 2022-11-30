@@ -137,7 +137,7 @@ p.downloadno {
     background-color: rgb(240, 194, 194);
     color: rgb(132, 12, 12);
 }
-/* changes based on a minimum 37rem screen size */
+/* changes based on a minimum 40rem screen size */
 
 @media screen and (min-width: 40rem) {
     ul.shop {
