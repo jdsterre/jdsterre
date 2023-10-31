@@ -1,0 +1,144 @@
+/*CSS document*/
+
+body {
+    background-color: #F0F0F0;
+    font-family: "obvia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 img{
+    width: 50%;
+    margin: auto;
+}
+
+nav {
+    font-family: "obvia-wide", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+nav ul li a {
+    color: #26272D;
+    text-decoration: none;
+}
+
+div.container {
+    max-width: 50em;
+    margin: auto;
+    background-color: #F0F0F0;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    color: #26272D;
+    font-size: 0.9em;
+}
+
+h2, h3, a h3{
+    font-family: "obvia-wide", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #26272D
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+aside {
+    width: 80%;
+    margin: auto;
+}
+
+/* extra styling for the aside  */
+
+    aside h3 {
+        opacity: 0.5;
+        font-size: 1.3rem;
+    }
+
+    aside section h3 {
+        opacity: 1;
+        font-size: 1rem;
+    }
+
+    aside section a {
+        text-decoration: none;
+    }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article p {
+    font-family: "obvia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+figcaption {
+    font-family: "obvia", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+footer {
+    font-family: "obvia", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+section {
+    padding-bottom: 1rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+section a { 
+    text-decoration: none;
+}
+
+section a p, section a h3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+section a h3 {
+    font-size: 1.3rem;
+}
+
+/* stlying for the main story in the index.html */
+
+section.mainstory {
+    background-color: #6F3986;
+}
+
+    section.mainstory figure h3 {
+        position: absolute;
+        background-color: #6F3986;
+        color: white;
+        font-size: 1.5rem;
+        padding: 0.5em;
+        margin: 0em;
+    }
+
+    section.mainstory a {
+        font-size: 1rem;
+    }
+
+    section.mainstory a p, section.mainstory a h3{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        color: white;
+    }
