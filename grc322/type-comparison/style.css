@@ -4,11 +4,11 @@
 body {
 	background-color: #fafafa;
 	color: #333333;
-	font-family: _____;
+	font-family: "mrs-eaves", serif;
 }
 
 div.container {
-	max-width: 40em;
+	max-width: 50em;
 	margin: auto;
 }
 
@@ -28,16 +28,75 @@ h1, h2, h3, h4, p, ul, ol, li {
 }
 
 h1 {
-	font-size: ______; 
-	font-weight: _____;
+	font-size: 2rem; 
+	font-weight: 600;
+	margin: 0 0 1em 0;
 }
 
 h2 {
 	font-size: ______; 
-	font-weight: _____;
+	font-weight: 100;
 }
 
 h3 {
 	font-size: ______; 
 	font-weight: _____;
+	margin: 0 0 0.5em 0;
 }
+
+h3.din {
+	font-family: "urw-din", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h3.interstate {
+	font-family: "interstate", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+figcaption {
+	font-size: 0.9em;
+	font-weight: 400;
+	color: #505050;
+}
+
+ /* Type */
+ /* 
+	Mrs Eaves OT Roman
+		font-family: "mrs-eaves", serif;
+		font-weight: 400;
+		font-style: normal;
+	Mrs Eaves OT Italic
+		font-family: "mrs-eaves", serif;
+		font-weight: 400;
+		font-style: italic;
+	Mrs Eaves OT Bold
+		font-family: "mrs-eaves", serif;
+		font-weight: 700;
+		font-style: normal;
+	Mrs Eaves OT Bold Italic
+		font-family: "mrs-eaves", serif;
+		font-weight: 700;
+		font-style: italic;
+	Mrs Eaves Roman Lining
+		font-family: "mrs-eaves-roman-lining", serif;
+		font-weight: 400;
+		font-style: normal;
+	Mrs Eaves Roman Small Caps
+		font-family: "mrs-eaves-roman-small-caps", serif;
+		font-weight: 400;
+		font-style: normal;
+	Mrs Eaves Roman All Small Caps
+		font-family: "mrs-eaves-roman-all-small-ca", serif;
+		font-weight: 400;
+		font-style: normal;
+	Mrs Eaves Roman All Petite Caps
+		font-family: "mrs-eaves-roman-all-petite-c", serif;
+		font-weight: 400;
+		font-style: normal;
+	Mrs Eaves Roman Petite Caps
+		font-family: "mrs-eaves-roman-petite-caps", serif;
+		font-weight: 400;
+		font-style: normal; */
